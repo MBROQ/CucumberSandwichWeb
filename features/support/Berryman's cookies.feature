@@ -1,5 +1,5 @@
 Scenario: Title shows as expected
-When Website is loaded
+Given Website is loaded
 Then Title shows as anticipated
 
 Scenario: Font changes color after click

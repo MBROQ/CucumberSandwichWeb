@@ -1,6 +1,8 @@
 const assert = require('assert');
 const { Given, When, Then } = require('@cucumber/cucumber');
+const { Browser } = require('selenium-webdriver');
 
+const { After, Before, AfterAll, BeforeAll } = require('@cucumber/cucumber');
 Given("Website is loaded", function() {
 
 
@@ -10,12 +12,6 @@ When("Button is clicked", function() {
 
 
 });
-
-When("Website is loaded", function() {
-
-
-});
-
 
 When("Type in first name box", function() {
 
