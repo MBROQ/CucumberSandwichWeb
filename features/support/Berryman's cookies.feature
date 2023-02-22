@@ -4,10 +4,10 @@ Scenario: Title shows as expected
 Given Website is loaded
 Then The title should be "Berrymans Buiscuits"
 
-#Scenario: Font changes color after click
-#Given Website is loaded
-#When Button is clicked
-#Then Font color changes
+Scenario: Font changes color after click
+Given Website is loaded
+When Button is clicked
+Then Font color changes
 
 # Scenario: Picture loads
 # When Website is loaded

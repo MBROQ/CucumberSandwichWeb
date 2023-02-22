@@ -25,10 +25,10 @@ assert(true);
 
 });
 
-//When("Button is clicked", function () {
-    
+When("Button is clicked", async function () {
+   await browser.elementClick("button")
 
-//});
+});
 
 //When("Type in first name box", function () {
     
@@ -47,10 +47,10 @@ Then("The title should be {string}", async function (title) {
 
 })
 
-//Then("Font color changes", function () {
+Then("Font color changes", async function () {
     
-
-//})
+    assert (await browser.elementColor("Suprise")=='rgba(255, 0, 0, 1)')
+})
 
 //Then("Picture shows as anticipated", function () {
     
